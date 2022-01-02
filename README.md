@@ -15,7 +15,7 @@
 
 - **Product Service**: Manages our products. This service also provides the ability to allow user could filter, sort and search for products based on dynamic criteria.
 - **Userlog Service**: Records customers activities (updating, filtering, sorting, viewing product detail).
-- **ShopCart Service**: Manages customer's shopping carts.
+- **Cart Service**: Manages customer's shopping carts.
 - **Order Service**: Manages customer orders.
 - **Keycloak Service**: Identity and access management, manages user, roles and scopes. [Have not implemented yet]
 - **API Gateway**: Route requests to multiple services using a single endpoint.
@@ -46,7 +46,7 @@ Clean architecture refers to organizing the project so that it's easy to underst
 - Install [JDK 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 - Install [Docker for Desktop](https://www.docker.com/products/docker-desktop).
 - Install [Maven](https://maven.apache.org/download.cgi?Preferred=ftp://mirror.reverse.net/pub/apache/).
-- Clone source, go to folder ../icom
+- Clone source, go to folder ../icommerce
 - Open terminal and run command: docker-compose up (ensure docker-compose.yml file in the same folder)
 - Configuration RabbitMQ
 - Go to: http://localhost:15672/ and login with account: rabbitmq/rabbitmq
@@ -61,12 +61,7 @@ Create Binding
 ![Create Binding](images/create_rabbitmq_binding.png)
 
 - Build and Run services: 
-    + Go to each service folder:
-        ++  ../icommerce/gateway-service
-        ++  ../icommerce/product-service
-        ++  ../icommerce/order-service
-        ++  ../icommerce/cart-service
-        ++  ../icommerce/userlog
+    + Go to each service folder: gateway-service, product-service, order-service, cart-service, loggin-service
     + And run command: mvn clean install && java -jar target/<service-name>-0.0.1-SNAPSHOT.jar
 
 
