@@ -14,7 +14,7 @@
 ![System Design](images/system_design.png)
 
 - **Product Service**: Manages our products. This service also provides the ability to allow user could filter, sort and search for products based on dynamic criteria.
-- **Userlog Service**: Records customers activities (updating, filtering, sorting, viewing product detail).
+- **Logging Service**: Records customers activities (updating, filtering, sorting, viewing product detail).
 - **Cart Service**: Manages customer's shopping carts.
 - **Order Service**: Manages customer orders.
 - **Keycloak/WSO2 Service**: Identity and access management, manages user, roles and scopes. [Have not implemented yet]
