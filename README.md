@@ -5,6 +5,7 @@
     - [KISS](#kiss)
     - [SOLID](#solid)
     - [Clean Architecture](#clean-architecture)
+- [Technologies](#technologies)
 - [How to run the application](#how-to-run-the-application)
 - [APIs Document](#apis-document)
 
@@ -43,14 +44,14 @@ Clean architecture refers to organizing the project so that it's easy to underst
 ### Technologies
 
 - [Spring Boot](https://spring.io/projects/spring-boot).
-- [Spring Cloud Gateway] (https://spring.io/projects/spring-cloud-gateway)
-- [Spring Cloud Security] (https://spring.io/projects/spring-cloud-security)
-- [Spring Data] (https://spring.io/projects/spring-data)
-- [Spring AMQP] (https://spring.io/projects/spring-amqp#overview)
-- [Spring AOP]
-- [MySQL]
-- [MongoDB]
-- [RabitMQ]
+- [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway)
+- [Spring Cloud Security](https://spring.io/projects/spring-cloud-security)
+- [Spring Data](https://spring.io/projects/spring-data)
+- [Spring AMQP](https://spring.io/projects/spring-amqp#overview)
+- Spring AOP
+- MySQL
+- MongoDB
+- RabitMQ
 
 ## How to run the application
 
