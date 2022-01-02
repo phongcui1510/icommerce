@@ -61,13 +61,13 @@ Create Binding
 ![Create Binding](images/create_rabbitmq_binding.png)
 
 - Build and Run services: 
-	+ Go to each service folder: 
-	  ../icommerce/gateway-service
-	  ../icommerce/product-service
-	  ../icommerce/order-service
-	  ../icommerce/cart-service
-	  ../icommerce/userlog
-	+ And run command: mvn clean install && java -jar target/<service-name>-0.0.1-SNAPSHOT.jar
+    + Go to each service folder:
+        ../icommerce/gateway-service
+        ../icommerce/product-service
+        ../icommerce/order-service
+        ../icommerce/cart-service
+        ../icommerce/userlog
+    + And run command: mvn clean install && java -jar target/<service-name>-0.0.1-SNAPSHOT.jar
 
 
 ## APIs Document
