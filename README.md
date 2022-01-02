@@ -5,7 +5,6 @@
     - [KISS](#kiss)
     - [SOLID](#solid)
     - [Clean Architecture](#clean-architecture)
-- [Project folder structure and framework](project-folder-structure-and-framework)
 - [How to run the application](#how-to-run-the-application)
 - [APIs Document](#apis-document)
 
