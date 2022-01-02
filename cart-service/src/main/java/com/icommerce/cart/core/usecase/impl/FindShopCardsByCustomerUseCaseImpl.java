@@ -1,14 +1,14 @@
 package com.icommerce.cart.core.usecase.impl;
 
 import com.icommerce.cart.core.ShopCart;
-import com.icommerce.cart.core.port.ShopCardPort;
-import com.icommerce.cart.core.usecase.FindShopCardsByCustomerUseCase;
+import com.icommerce.cart.core.port.CartPort;
+import com.icommerce.cart.core.usecase.FindCartByCustomerUseCase;
 
-public class FindShopCardsByCustomerUseCaseImpl implements FindShopCardsByCustomerUseCase {
+public class FindShopCardsByCustomerUseCaseImpl implements FindCartByCustomerUseCase {
 
-    private ShopCardPort shopCardPort;
+    private CartPort shopCardPort;
 
-    public FindShopCardsByCustomerUseCaseImpl(ShopCardPort shopCardPort) {
+    public FindShopCardsByCustomerUseCaseImpl(CartPort shopCardPort) {
         this.shopCardPort = shopCardPort;
     }
 

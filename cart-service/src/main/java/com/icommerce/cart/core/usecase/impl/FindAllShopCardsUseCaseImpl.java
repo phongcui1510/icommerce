@@ -3,14 +3,14 @@ package com.icommerce.cart.core.usecase.impl;
 import java.util.List;
 
 import com.icommerce.cart.core.ShopCart;
-import com.icommerce.cart.core.port.ShopCardPort;
-import com.icommerce.cart.core.usecase.FindAllShopCardsUseCase;
+import com.icommerce.cart.core.port.CartPort;
+import com.icommerce.cart.core.usecase.FindAllCartUseCase;
 
-public class FindAllShopCardsUseCaseImpl implements FindAllShopCardsUseCase {
+public class FindAllShopCardsUseCaseImpl implements FindAllCartUseCase {
 
-    private ShopCardPort shopCardPort;
+    private CartPort shopCardPort;
 
-    public FindAllShopCardsUseCaseImpl(ShopCardPort shopCardPort) {
+    public FindAllShopCardsUseCaseImpl(CartPort shopCardPort) {
         this.shopCardPort = shopCardPort;
     }
 

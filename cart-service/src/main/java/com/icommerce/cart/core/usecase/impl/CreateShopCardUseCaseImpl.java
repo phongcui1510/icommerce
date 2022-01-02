@@ -1,15 +1,15 @@
 package com.icommerce.cart.core.usecase.impl;
 
 import com.icommerce.cart.core.ShopCart;
-import com.icommerce.cart.core.port.ShopCardPort;
+import com.icommerce.cart.core.port.CartPort;
 import com.icommerce.cart.core.shared.CreationValidationGroup;
-import com.icommerce.cart.core.usecase.CreateShopCardUseCase;
+import com.icommerce.cart.core.usecase.CreateCartUseCase;
 
-public class CreateShopCardUseCaseImpl implements CreateShopCardUseCase {
+public class CreateShopCardUseCaseImpl implements CreateCartUseCase {
 
-    private ShopCardPort shopCardPort;
+    private CartPort shopCardPort;
 
-    public CreateShopCardUseCaseImpl(ShopCardPort shopCardPort) {
+    public CreateShopCardUseCaseImpl(CartPort shopCardPort) {
         this.shopCardPort = shopCardPort;
     }
 

@@ -3,9 +3,9 @@ package com.icommerce.cart.core.shared;
 public interface ConstantUtils {
 
     String API_VERSION_1 = "/v1";
-    String APPLICATION_NAME = "/shopcard-service";
+    String APPLICATION_NAME = "/cart-service";
     String RESOURCE_VERSION = "/version";
-    String RESOURCE_SHOP_CARD = "/shopcards";
+    String RESOURCE_CART = "/carts";
     String SUCCESS = "Success";
     String FAILURE = "Failure";
 

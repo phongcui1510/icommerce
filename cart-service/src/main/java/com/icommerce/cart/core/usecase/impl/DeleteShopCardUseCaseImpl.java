@@ -1,13 +1,13 @@
 package com.icommerce.cart.core.usecase.impl;
 
-import com.icommerce.cart.core.port.ShopCardPort;
-import com.icommerce.cart.core.usecase.DeleteShopCardUseCase;
+import com.icommerce.cart.core.port.CartPort;
+import com.icommerce.cart.core.usecase.DeleteCartUseCase;
 
-public class DeleteShopCardUseCaseImpl implements DeleteShopCardUseCase {
+public class DeleteShopCardUseCaseImpl implements DeleteCartUseCase {
 
-    private ShopCardPort shopCardPort;
+    private CartPort shopCardPort;
 
-    public DeleteShopCardUseCaseImpl(ShopCardPort shopCardPort) {
+    public DeleteShopCardUseCaseImpl(CartPort shopCardPort) {
         this.shopCardPort = shopCardPort;
     }
 

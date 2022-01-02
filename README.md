@@ -126,10 +126,10 @@ curl --location --request POST 'http://localhost:9090/order-service/orders' \
     ]
 }'
 
-**Shopcard service**
+**Cart service**
 
-***Create Shopcard***:
-curl --location --request POST 'http://localhost:9090/shopcard-service/v1/shopcards' \
+***Create Cart***:
+curl --location --request POST 'http://localhost:9090/cart-service/v1/carts' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "customer": "123",
@@ -151,8 +151,8 @@ curl --location --request POST 'http://localhost:9090/shopcard-service/v1/shopca
     ]
 }'
 
-***Update Shopcard***:
-curl --location --request PUT 'http://localhost:9090/shopcard-service/v1/shopcards/{customer-id}' \
+***Update Cart***:
+curl --location --request PUT 'http://localhost:9090/cart-service/v1/carts/{customer-id}' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "customer": "123",
@@ -174,10 +174,10 @@ curl --location --request PUT 'http://localhost:9090/shopcard-service/v1/shopcar
     ]
 }'
 
-***Delete Shopcard***:
-curl --location --request DELETE 'http://localhost:9090/shopcard-service/v1/shopcards/{customer-id}'
+***Delete Cart***:
+curl --location --request DELETE 'http://localhost:9090/cart-service/v1/carts/{customer-id}'
 
-**Userlog service**
+**Logging service**
 
-***Get Userlog***:
-curl --location --request GET 'http://localhost:9090/userlog-service/user-logs'
+***Get Logging***:
+curl --location --request GET 'http://localhost:9090/logging-service/user-logs'
