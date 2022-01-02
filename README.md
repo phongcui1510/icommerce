@@ -40,6 +40,18 @@ Clean architecture refers to organizing the project so that it's easy to underst
 
 ![Clean Architecture](images/clean_architecture.jpg)
 
+### Technologies
+
+- [Spring Boot](https://spring.io/projects/spring-boot).
+- [Spring Cloud Gateway] (https://spring.io/projects/spring-cloud-gateway)
+- [Spring Cloud Security] (https://spring.io/projects/spring-cloud-security)
+- [Spring Data] (https://spring.io/projects/spring-data)
+- [Spring AMQP] (https://spring.io/projects/spring-amqp#overview)
+- [Spring AOP]
+- [MySQL]
+- [MongoDB]
+- [RabitMQ]
+
 ## How to run the application
 
 - Install [JDK 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
