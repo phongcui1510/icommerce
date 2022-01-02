@@ -62,11 +62,11 @@ Create Binding
 
 - Build and Run services: 
     + Go to each service folder:
-        ../icommerce/gateway-service
-        ../icommerce/product-service
-        ../icommerce/order-service
-        ../icommerce/cart-service
-        ../icommerce/userlog
+        ++  ../icommerce/gateway-service
+        ++  ../icommerce/product-service
+        ++  ../icommerce/order-service
+        ++  ../icommerce/cart-service
+        ++  ../icommerce/userlog
     + And run command: mvn clean install && java -jar target/<service-name>-0.0.1-SNAPSHOT.jar
 
 
