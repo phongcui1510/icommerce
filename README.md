@@ -17,7 +17,7 @@
 - **Userlog Service**: Records customers activities (updating, filtering, sorting, viewing product detail).
 - **Cart Service**: Manages customer's shopping carts.
 - **Order Service**: Manages customer orders.
-- **Keycloak Service**: Identity and access management, manages user, roles and scopes. [Have not implemented yet]
+- **Keycloak/WSO2 Service**: Identity and access management, manages user, roles and scopes. [Have not implemented yet]
 - **API Gateway**: Route requests to multiple services using a single endpoint.
 
 ## Software development principles
