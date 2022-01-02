@@ -1,4 +1,4 @@
-# Online shopping application backend-skeleton
+# iCommerce shopping application
 - [System Design](#system-design)
 - [Software development principles](#software-development-principles)
     - [DRY](#dry)
